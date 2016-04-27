@@ -1,0 +1,29 @@
+### Directories ###
+node_modules
+bower_components
+
+### Extensions ###
+.mo
+.pot
+
+### Files ###
+npm-debug.log
+
+### IntelliJ ###
+*.iml
+.idea/
+
+### Sensitive files ###
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+### logs ###
+!.gitkeep
+node_modules/
+bower_components/
+tmp
+.DS_Store
+.idea
