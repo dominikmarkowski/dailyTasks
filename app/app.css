@@ -28,7 +28,6 @@ body {
 .task-list{
     width: 250px;
     float: left;
-    position: relative;
     margin: 10px 10px;
     background-color: lightsalmon;
     min-height: 340px;
