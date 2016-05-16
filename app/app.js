@@ -202,9 +202,12 @@ data = data || {};
     };
 
     todo.clear = function () {
-        data = {};
+        if (confirm("Are you sure?")) {
+            data = {};
         localStorage.setItem("todoData", JSON.stringify(data));
         $("." + defaults.todoTask).remove();
+        }
+        return false;
     };
 
 })(todo, data, jQuery);
